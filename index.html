@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Send Message</title>
+
+    <!--
+      Isto significa que queremos "linkar" este arquivo HTML e o script JS
+      no diretório especificado no atributo "src":
+    -->
+    <script src="sendMessage.js"></script>
+
+  </head>
+
+  <body>
+
+    <!--
+      Aqui criamos dois inputs (caixinhas para preencher):
+    -->
+    <input type="text" id="inputPhone" placeholder="Phone...">
+    <input type="text" id="inputMessage" placeholder="Message...">
+
+    <!--
+      Isto é um botão, que ao clicar, ativamos a função "sendMessage", criada
+      no script JS:
+    -->
+    <button onclick="sendMessage()">Send</button>
+
+  </body>
+</html>
